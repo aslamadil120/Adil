@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+  
+  
+  <div class="container">
+    <div class="box">
+      <div id="header" class="header">
+        <h1>Quiz Game🛡</h1>
+        
+        <h3 id="gameOver">Game Over !🎮</h3>
+        <div id="scoreBox">
+          <p id="scoreEle">Score : 0/0</p>
+          <p id="hiScoreEle">Hiscore: 0/0</p>
+        </div>
+        
+        <button id="restart">Try again</button>
+      </div>
+      
+      <div id="questionBox">
+        <div class="question-head">
+          <h2 id="question" class="question-h2"></h2>
+          <div class="life-box" id="lifeContainer">
+            <p>Life: </p>
+            <div class="life">❤</div>
+            <div class="life">❤</div>
+            <div class="life">❤</div>
+          </div>
+        </div>
+      
+        <button class="option effect">option</button>
+        <button class="option effect">option</button>
+        <button class="option effect">option</button>
+        <button class="option effect">option</button>
+        
+        <div class="btn-g">
+          <button id="quit" class="btn">Quit ⚠</button>
+          <button id="next" class="btn">Next➡</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="questionData.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
